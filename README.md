@@ -2,6 +2,9 @@
 End-to-end SaaS sales analytics project using BigQuery, SQL, and Tableau to analyze revenue trends, profitability, customer segments, and discount impact.
 
 # SaaS Sales Analytics Dashboard
+## Dashboard
+
+![Dashboard](Dashboard.png)
 Project Overview
 
 This project analyzes sales performance for a SaaS company using SQL and Tableau.
@@ -28,6 +31,16 @@ The analysis was conducted using Google BigQuery for data preparation and Tablea
 Primary analytical table:
 
 sales_enriched
+
+## SQL Transformations
+
+The project uses SQL in Google BigQuery to create analytical tables:
+
+- sales_enriched
+- executive_kpis
+- monthly_summary
+
+These transformations support dashboard reporting and KPI calculations.
 
 # Key fields:
 
