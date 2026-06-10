@@ -10,41 +10,40 @@ The objective was to identify revenue drivers, evaluate profitability, understan
 
 The analysis was conducted using Google BigQuery for data preparation and Tableau for dashboard development.
 
-Business Questions
+## Business Questions
 
-This project was designed to answer the following questions:
+- How is revenue evolving over time?
+- Which industries generate the most revenue?
+- Which customer segments contribute the most to sales?
+- How do discounts affect profitability?
+- What are the key business KPIs?
 
-How is revenue evolving over time?
-Which industries generate the most revenue?
-Which customer segments contribute the most to sales?
-How do discounts affect profitability?
-What are the key business KPIs?
-Tech Stack
-Google BigQuery
-SQL
-Tableau
-GitHub
-Dataset
+## Tech Stack
+
+- Google BigQuery
+- SQL
+- Tableau
+- GitHub
 
 Primary analytical table:
 
 sales_enriched
 
-Key fields:
+# Key fields:
 
-Sales
-Profit
-Customer ID
-Order ID
-Industry
-Segment
-Discount Bucket
-Product
-Order Date
+- Sales
+- Profit
+- Customer ID
+- Order ID
+- Industry
+- Segment
+- Discount Bucket
+- Product
+- Order Date
 
 All dashboard visualizations were built directly from this table to maintain a single source of truth.
 
-Dashboard Components
+# Dashboard Components
 
 KPIs
 - Total Revenue
@@ -58,14 +57,14 @@ Visualizations
 - Revenue by Segment
 - Discount Impact Analysis
 
-Key Insights
+# Key Insights
 
 - Finance generated the highest revenue among all industries.
 - SMB customers contributed the largest share of sales.
 - Higher discount levels were associated with lower profit margins.
 - Revenue showed an upward trend toward the end of the analysis period.
 
-Recommendations
+# Recommendations
 
 - Prioritize high-performing industries such as Finance and Energy.
 - Review discount policies for highly discounted transactions.
