@@ -37,8 +37,6 @@ sales_enriched
 The project uses SQL in Google BigQuery to create analytical tables:
 
 - sales_enriched
-- executive_kpis
-- monthly_summary
 
 These transformations support dashboard reporting and KPI calculations.
 
@@ -83,3 +81,18 @@ Visualizations
 - Review discount policies for highly discounted transactions.
 - Expand successful SMB acquisition strategies.
 - Monitor profit margin alongside revenue growth.
+
+## Dataset
+
+Synthetic SaaS sales dataset containing:
+
+- Revenue
+- Profit
+- Customers
+- Industries
+- Segments
+- Discounts
+- Products
+
+Time period:
+2020–2023
