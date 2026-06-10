@@ -1,16 +1,14 @@
--- Revenue trend over time
+-- Revenue trend over year
 
 SELECT
     order_year,
-    order_month,
     ROUND(SUM(Sales),2) AS total_sales
 FROM `focus-storm-497722-d5.saas_sales.sales_enriched`
 GROUP BY
-    order_year,
-    order_month
+    order_year
 ORDER BY
-    order_year,
-    order_month;
+    order_year
+  
 
 -- Revenue and profitability by industry
 
